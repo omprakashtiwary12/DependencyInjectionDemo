@@ -1,9 +1,31 @@
-<androidx.constraintlayout.widget.ConstraintLayout
-    android:id="@+id/parent"
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/parent"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android" >
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:layout_marginTop="1dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:src="@drawable/myphoto"/>
 
+<androidx.appcompat.widget.AppCompatButton
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    app:layout_constraintBottom_toBottomOf="parent"
+    android:text="@string/button"
+    android:fontFamily="sans-serif-condensed-medium"
+    android:textSize="20sp"
+    android:padding="20dp"
+    android:textAllCaps="false"
+    android:layout_margin="20dp"
+    android:textColor="@color/white"
+    />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

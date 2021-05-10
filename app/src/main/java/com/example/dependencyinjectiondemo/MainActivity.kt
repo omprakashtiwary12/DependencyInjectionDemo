@@ -61,5 +61,9 @@ class MainActivity : AppCompatActivity() {
 
         mainContainer.addView(parent)
 
+        // I am ready for publishing some new version
+        println("This is the second commit")
+
+
     }
 }
