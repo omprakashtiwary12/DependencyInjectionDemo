@@ -63,6 +63,8 @@ class MainActivity : AppCompatActivity() {
 
         // I am ready for publishing some new version
         println("This is the second commit")
+      // Now test third commit
+        println("3rd commit we are looking into")
 
 
     }
