@@ -65,10 +65,7 @@ class MainActivity : AppCompatActivity() {
         println("This is the second commit")
       // Now test third commit
         println("3rd commit we are looking into")
-
-        today is a good day
-
-
+        dsaj hjv hhjvd jhwv  jwv
 
     }
 }
